@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+div.row {
+    padding: 5px;
+}
+
+div.container {
+    /* border: solid 1px black; */
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* # id, . class */
+#alert, #success { 
+    display: none;
+}
+
+#debug {
+    display: block;
+    border-left: solid 5px grey;
+}
+
+#svgContainer {
+    /* background-color: lightgrey; */
+    /* display: block; */
+    border: solid 1px grey;
+}
+
+.roomSvg {
+    /* overflow: visible; */
+}
+
+#g {
+    /* border: solid 1px gray; */
+}
+
+.room {
+    stroke: grey; 
+    stroke-width: 1px;
+    fill: white;
+    /* pointer-events: none; */
+}
+
+.room:hover{
+    fill:lightgray;
+    stroke: dimgray;  
+}
+
+.roomChodba {
+    stroke: grey;
+    /* stroke: none;   */
+    stroke-width: 1px;
+    fill: white;
+    /* pointer-events: none; */
+}
+
+.roomSelected {
+    stroke: darkred; 
+    stroke-width: 1px;
+    fill: #fce6e8;
+    cursor: move;
+}
+
+.roomSelected:hover{
+    stroke: saddlebrown;  
+    fill: wheat;
+}
+
+/* .roomNumber {
+    fill: grey;
+    text-anchor: middle;
+    dominant-baseline: middle;
+    pointer-events: none;
+    user-select: none;
+    font-size: 0.6em;
+    font-weight: bold;
+} */
+
+.roomName {
+    fill: grey;
+    text-anchor: middle;
+    dominant-baseline: middle;
+    pointer-events: none;
+    user-select: none;
+    font-size: 0.6em;
+}
+
+/* .roomEthConnectors {
+    fill: darkgray;
+    text-anchor: middle;
+    dominant-baseline: middle;
+    pointer-events: none;
+    user-select: none;
+    font-size: 0.8em;
+} */
+
+.door {
+    stroke-width: 0.5px;
+    stroke: brown;
+    fill: brown;
+}
+
+.window {
+    stroke-width: 0.5px;
+    stroke: LightSkyBlue;
+    fill: LightSkyBlue;
+}
+
+#gridRect {
+    pointer-events: none;
+    stroke-width: 5px;
+    stroke: gray;
+    
+}
+#boundariesRect {
+    pointer-events: none;
+}
